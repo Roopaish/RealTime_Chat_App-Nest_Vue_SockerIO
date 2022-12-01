@@ -3,7 +3,8 @@ import { io } from "socket.io-client";
 import { onBeforeMount, ref } from "vue";
 import type { Message } from "./type";
 
-const socket = io("http://localhost:3001");
+// const socket = io("http://localhost:3001");
+const socket = io("https://realtimechatapp-production.up.railway.app/");
 
 const messages = ref<Message[]>([]);
 const messageText = ref<string>("");
