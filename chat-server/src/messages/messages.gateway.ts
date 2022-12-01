@@ -12,7 +12,7 @@ import { Server, Socket } from 'socket.io';
 
 @WebSocketGateway({
   cors: {
-    origin: '*',
+    origin: 'https://roopaish-chat.vercel.app/',
   },
 })
 export class MessagesGateway {
