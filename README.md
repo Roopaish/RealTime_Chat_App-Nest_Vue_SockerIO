@@ -4,7 +4,6 @@
 
 - Nest
 - Vue
-- GraphQL
 - Typescript
 - BounceCSS
 
